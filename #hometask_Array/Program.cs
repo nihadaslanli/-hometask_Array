@@ -21,7 +21,7 @@ for (int i = 1; i < num.Length; i++)
 {
     if (num[i] > max)
     {
-       num[i] = max;
+        max = num[i];
     }
 }
 Console.WriteLine(max);
