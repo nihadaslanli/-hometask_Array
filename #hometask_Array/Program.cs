@@ -11,6 +11,8 @@ Console.WriteLine("Hello, World!");
 //}
 //Console.WriteLine(sum);
 #endregion
+
+
 #region task6
 
 int[] num = { 10,12,14,24,35,45};
