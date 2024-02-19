@@ -15,7 +15,7 @@ Console.WriteLine("Hello, World!");
 
 #region task6
 
-int[] num = { 10,12,14,24,35,45};
+int[] num = { 19,22,24,35,45};
 int n = num[i];
 
 for (int i = 1; i < num.Length; i++)
