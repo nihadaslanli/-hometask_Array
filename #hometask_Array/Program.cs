@@ -16,16 +16,15 @@ Console.WriteLine("Hello, World!");
 #region task6
 
 int[] num = { 19,22,24,35,45};
-int n = num[i];
-
+int max = 0;
 for (int i = 1; i < num.Length; i++)
 {
-    if (n > num[i])
+    if (num[i] > max)
     {
-       
+       num[i] = max;
     }
 }
-Console.WriteLine(n);
+Console.WriteLine(max);
 
 
 #endregion
